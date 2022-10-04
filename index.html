@@ -2,61 +2,125 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Echo Games</title>
+  <title>Strickland</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/css/bootstrap.min.css'><link rel="stylesheet" href="style/styles.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="style/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script><script  src="scripts/script.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://github.com/astricklandd/echo-lab"> 
-            Click for the code to this page!</a> </div></nav>
-  <center><h1>Strickland's Fun Games</h1></center>
 
- <div class="row">
-      <h3> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   Click an image to play! </h3>
+<div class="p-5 bg-dark text-white text-center">
+  <h1>Strickland's Webpage</h1>
+  <p>Learn more about me by clicking the tabs below!</p> 
 </div>
 
-<div class="box">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Professional</a>
+      </li>
+      <!-- above should be a new page -> includes resume, LinkDN, etc -->
+      <li class="nav-item">
+        <a class="nav-link" href="https://astricklandd.github.io/echo-lab/">Games</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-<div class="updates">
-   <center><h5> 
-    <b>New Updates:</b> <br><br>
-    <u>Wow Game:</u> <br>
-     - Now displays creators name <br>
-     - Now has additional name facts <br>
-     - New color scheme <br> <br>
-     <u>Doge Game:</u> <br>
-     - New color scheme <br>
-     - Game logo no longer leads to an external page <br>
-     - New images on page <br>
-    </h5>
-</div></center>
-  
-<div class="row">
-  <div class ="col-md-3"> 
-    <div class ="card">
-        <img id="NameGame" class ="card-image-left" src ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSAm6UOgXwCJqcI-Nlbw3BZ5A4HAz8BpowJA&usqp=CAU'width="600" height="400" alt='Name Game'>
-         
-        <img id="DogeGame" src = 'http://doge2048.com/meta/doge-600.png'width="600" height="400" alt='Doge Game'>
-      </div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>About Me</h3><br>
+      <img src="https://media-exp1.licdn.com/dms/image/C5603AQFLkJPAgNVqDA/profile-displayphoto-shrink_800_800/0/1659399010503?e=1670457600&v=beta&t=YgUbc49FpvOThIhknggcmm_ut1u3Bjox7QJrfA2XuWQ" height="150" width="150" class="w3-circle" alt="Image of me">
+      <p>Above: image of myself</p>
+      <h3 class="mt-4">Fun Links</h3>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://www.w3schools.com/">w3schools</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://una.edu/">UNA Website</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.espn.com/college-football/">ESPN College Football</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://finance.yahoo.com/quote/%5EGSPC?p=%5EGSPC">S&P 500</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://10fastfingers.com/typing-test/english">Typing Test</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://github.com/astricklandd?tab=repositories">GitHub Repo's</a>
+          </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <center><h2>University of North Alabama</h2></center>
+      <h5>UNA football taking the field</h5>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/University_of_North_Alabama_school_colors.jpg?20180618181210" class="w3-round" alt="Roar Lions">
+      
+      <p>I am currently a senior at the University of North Alabama [UNA]. I graduate in December of 2022 with a Bachelor in CIS. Here are some of my favorite things from UNA. </p>
+   <ul class="nav">
+     <li class="nav-item">
+            <a class="nav-link" href="https://www.una.edu/fsl/Chapters.html">Kappa Sigma</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://leoanduna.com/lioncam/">Leo Cam</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://una.edu/student-activities/distinguished-campus-events.html#:~:text=The%20Lucky%20Dip%20is%20a,all%20A's%20that%20academic%20year.">The Lucky Dip</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.roarlions.com/sports/2015/5/26/GEN_0526150813.aspx">Tailgates</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://una.edu/recsports/intramural/index.html">Intramural Sports</a>
+        </li>
+    </ul>
+    <br>
+    <p>This is a brief bit about my time at UNA, continue browsing to learn more about me!</p>
+
+      <center><h2 class="mt-5">Birmingham, Alabama</h2></center>
+      <h5>Side image of BHM, AL</h5>
+      <img src="https://media.istockphoto.com/photos/birmingham-alabama-picture-id450156813?k=20&m=450156813&s=612x612&w=0&h=CyXFNEbvsRAv80YDVJrhmSTN07lqoonrizZkuKhuWw4="class="w3-round" alt="Roar Lions">
+      <p>I am originally from Birmingham, Alabama. I graduated high school from Vestavia Hills High in 2019. Here are a few of my favorite things about Birmingham:</p>
+      <ul class="nav">
+        <li class="nav-item">
+               <a class="nav-link" href="https://www.vhcs.us/vhhs">Vestavia Hills High</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="https://www.vhcs.us/vhhs">Vulcan</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="https://www.vhcs.us/vhhs">Oak Mountain State Park</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="https://www.foxsports.com/usfl/birmingham-stallions-team">BHM Stallions</a>
+           </li>
+       </ul>
+    </div>
   </div>
 </div>
-</div> 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="scripts/script.js"></script>
 
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p>Email: astrickland0503@gmail.com - Instagram: @alex.striickland - Linkedin: <a href ="https://www.linkedin.com/in/alex-strickland-6602a2247/"> Alex Strickland</a></p>
+</div>
 
-  <center><ul class="navbar-nav">
-    <li class="nav-item"></li>
-    <a class="nav-link active" href="https://github.com/astricklandd/cis376-charlie-lab">Click for the code for the Doge Game!</a>
-    <li class="nav-item"></li>
-    <a class="nav-link active" href="https://astricklandd.github.io/delta-lab/">Click for the code for the Wow Game!</a>
-    <a class="navbar-link active" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2Fastricklandd%2Fecho-lab"> Check the validity of Echo Lab!</a>
-    <a class="navbar-link active" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2Fastricklandd%2Fabout-me"> Check the validity of this code!</a>
-</center>
-  </ul></center>
-</body>
 </html>
+
+

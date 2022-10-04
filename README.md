@@ -6,4 +6,4 @@
 * This will include a generalized skills page <br>
 * This MAY include code written outside of this class with functional links <br>
 * This MAY include a resume <br>
-* This MAY include anything else that  ould showcase skills not related to CIS 376 <br>
+* This MAY include anything else that  would showcase skills not related to CIS 376 <br>
