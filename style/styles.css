@@ -37,3 +37,12 @@ h5{
   color: white;
   font-variant: small-caps;
 }
+.maintxt {
+    position: relative;
+  }
+  .maintxt > img,
+  .overlay-text {
+    position: absolute;
+    color:black;
+  }
+  
